@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/humic/static/css/main.6159cd63.css",
-    "main.js": "/humic/static/js/main.301f7482.js",
+    "main.js": "/humic/static/js/main.e2f7846e.js",
     "static/js/787.0a6446b5.chunk.js": "/humic/static/js/787.0a6446b5.chunk.js",
     "static/media/rl.gif": "/humic/static/media/rl.f2e433aaf8e825a16384.gif",
     "static/media/ethics.gif": "/humic/static/media/ethics.17589d4df67f270934af.gif",
@@ -11,14 +11,16 @@
     "static/media/compneuro.gif": "/humic/static/media/compneuro.51fb944a6a07dc7363e7.gif",
     "static/media/jon.png": "/humic/static/media/jon.abbbc2e171428531b2fa.png",
     "static/media/deep_learning.jpg": "/humic/static/media/deep_learning.b6e5e7ce11153b464930.jpg",
-    "static/media/deepak.JPEG": "/humic/static/media/deepak.05578b727ec6728bf781.JPEG",
     "static/media/gan.gif": "/humic/static/media/gan.baed31a8f28ae60b98d6.gif",
-    "static/media/jason.jpg": "/humic/static/media/jason.77020b68a0fddd2be079.jpg",
+    "static/media/deepak.jpg": "/humic/static/media/deepak.4a1913c44c83ca2f5b06.jpg",
     "static/media/fnn.gif": "/humic/static/media/fnn.b5ac9691953aec46d4d1.gif",
+    "static/media/deepak.jfif": "/humic/static/media/deepak.bd1ca2cd4842a546cf77.jfif",
     "static/media/chloe.JPG": "/humic/static/media/chloe.c19874ca9ebb84fa86b2.JPG",
     "static/media/cnn.gif": "/humic/static/media/cnn.dc8c4ff80c4520e3097b.gif",
+    "static/media/jason.jpg": "/humic/static/media/jason.9cc5770f653faaac1f2f.jpg",
     "static/media/zad.jpg": "/humic/static/media/zad.6bdbc884d473e6f0864c.jpg",
     "static/media/warren.JPEG": "/humic/static/media/warren.4e8dacf2cfd3ceef826f.JPEG",
+    "static/media/jon.jpg": "/humic/static/media/jon.86217278ef2d40a47a6f.jpg",
     "static/media/elie.jfif": "/humic/static/media/elie.d987e5381a20c418d236.jfif",
     "static/media/source-sans-pro-all-400-normal.woff": "/humic/static/media/source-sans-pro-all-400-normal.75edd947f6589a81c465.woff",
     "static/media/group.png": "/humic/static/media/group.c382724b45e6dbe267f1.png",
@@ -35,11 +37,11 @@
     "static/media/source-sans-pro-vietnamese-400-normal.woff2": "/humic/static/media/source-sans-pro-vietnamese-400-normal.e84a4369ad213f658ebb.woff2",
     "index.html": "/humic/index.html",
     "main.6159cd63.css.map": "/humic/static/css/main.6159cd63.css.map",
-    "main.301f7482.js.map": "/humic/static/js/main.301f7482.js.map",
+    "main.e2f7846e.js.map": "/humic/static/js/main.e2f7846e.js.map",
     "787.0a6446b5.chunk.js.map": "/humic/static/js/787.0a6446b5.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.6159cd63.css",
-    "static/js/main.301f7482.js"
+    "static/js/main.e2f7846e.js"
   ]
 }
