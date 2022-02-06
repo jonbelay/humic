@@ -8,7 +8,7 @@ const Profile = ({person, index}) => {
     <motion.div 
       initial={{scale: 0, opacity: 0}}
       animate={{scale: 1, opacity: 1}}
-      transition={{delay: (index*0.5)+0.8}}
+      transition={{delay: (index*0.7)+0.8}}
       style={{display: 'flex', flexDirection: 'column', alignItems: 'center', margin: 20, marginTop: 0}}
     >
       <img src={require(`${person.photo}`)} style={{height: 150, width: 150, borderRadius: 100, marginBottom: 10, boxShadow: 'rgba(0,0,0,0.2) 0px 0px 5px'}} alt='humic logo' />
