@@ -147,13 +147,13 @@ const Tab = ({index}) => {
             
             <a style={{textDecoration:'none', color: 'black'}} href='https://docs.google.com/forms/d/e/1FAIpQLSd2td_7ZTmKWcWH4NgWuaR6NfKrB1P78aVkgeTmmA6XnC13Ag/viewform?usp=send_form' rel="noreferrer">
               <motion.div
-                whileHover={{boxShadow:'#381786 0px 1px 6px, #F1642C 0px -1px 6px'}}
+                initial={{y:-50, scale: 0, opacity: 0}}
+                animate={{y: 0, scale: 1, opacity: 1}}
+                transition={{type: 'spring', delay: 1.5}}
                 style={{borderRadius: 40, margin: 10, }}
               >           
                 <motion.div 
-                  initial={{y:-50, scale: 0, opacity: 0}}
-                  animate={{y: 0, scale: 1, opacity: 1}}
-                  transition={{type: 'spring', delay: 1.5}}
+                  whileHover={{boxShadow:'#381786 0px 1px 6px, #F1642C 0px -1px 6px'}}
                   style={{height: 80, width: 80, backgroundColor: 'white', boxShadow: 'rgba(0,0,0,0.1) 0px 0px 10px', borderRadius: 40, display: 'flex', flexDirection: 'column', justifyContent: 'center', alignItems: 'center'}}
                 >
                   <img src={require('./group.png')} style={{height: '50%', width: '50%'}} alt='membership'/>
@@ -164,13 +164,13 @@ const Tab = ({index}) => {
 
             <a style={{textDecoration:'none', color: 'black'}} href='https://tinyurl.com/AI-fellowship-2022' rel="noreferrer">
               <motion.div
-                whileHover={{boxShadow:'#381786 0px 1px 6px, #F1642C 0px -1px 6px'}}
+                initial={{y:-50, scale: 0, opacity: 0}}
+                animate={{y: 0, scale: 1, opacity: 1}}
+                transition={{type: 'spring', delay: 1.5}}
                 style={{borderRadius: 40, margin: 10, }}
               >
                 <motion.div 
-                  initial={{y:-50, scale: 0, opacity: 0}}
-                  animate={{y: 0, scale: 1, opacity: 1}}
-                  transition={{type: 'spring', delay: 1.5}}
+                  whileHover={{boxShadow:'#381786 0px 1px 6px, #F1642C 0px -1px 6px'}}
                   style={{height: 80, width: 80, backgroundColor: 'white', boxShadow: 'rgba(0,0,0,0.1) 0px 0px 10px', borderRadius: 40, display: 'flex', flexDirection: 'column', justifyContent: 'center', alignItems: 'center'}}
                 >
                   <img src={require('./scholar.png')} style={{height: '50%', width: '50%'}} alt='membership'/>
@@ -201,11 +201,7 @@ const Tab = ({index}) => {
 
         {
           index=== 5 && (
-            <motion.div
-                initial={{scale: 0, opacity: 0}}
-                animate={{scale: 1, opacity: 1}}
-                transition={{type: 'spring', delay: 1, duration: 1.5}}
-            >
+            <div>
               <div style={{display: 'flex', flexDirection: 'row', marginBottom: 30}}>
                 <Profile person={people[0]} index={0}/>
                 <Profile person={people[1]} index={1}/>
@@ -218,7 +214,7 @@ const Tab = ({index}) => {
                 <Profile person={people[6]} index={6}/>
                 <Profile person={people[7]} index={7}/>
               </div>
-            </motion.div>
+            </div>
           )
         }
     </div>
