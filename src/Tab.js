@@ -77,10 +77,10 @@ const details = [
 const people = [
   {name: "Darius Lam", role: "Co-President", photo: './darius.jfif'},
   {name: "Chloe Loughridge", role:  "Co-President", photo: './chloe.JPG'},
-  {name: "Jonathan Belay", role: "Director of Applied Projects", photo: './jon.png'}, 
-  {name: "Deepak Singh", role:  "Director of Research", photo: './deepak.JPEG'},
-  {name: "Elie Eshoa", role: "Co-Director of Education", photo: './elie.jfif'},
+  {name: "Jonathan Belay", role: "Director of Applied Projects", photo: './jon.jpg'}, 
+  {name: "Deepak Singh", role:  "Director of Research", photo: './deepak.jfif'},
   {name: "Jason Wang", role: "Co-Director of Education", photo: './jason.jpg'},
+  {name: "Elie Eshoa", role: "Co-Director of Education", photo: './elie.jfif'},
   {name: "Zad Chin", role: "Director of Outreach", photo: './zad.jpg'},
   {name: "Warren Sunada-Wong", role: "Director of Alignment", photo: './warren.JPEG'},
   ]
