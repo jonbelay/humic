@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/humic/static/css/main.6159cd63.css",
-    "main.js": "/humic/static/js/main.20558394.js",
+    "main.js": "/humic/static/js/main.41804c0b.js",
     "static/js/787.0a6446b5.chunk.js": "/humic/static/js/787.0a6446b5.chunk.js",
     "static/media/rl.gif": "/humic/static/media/rl.f2e433aaf8e825a16384.gif",
     "static/media/ethics.gif": "/humic/static/media/ethics.17589d4df67f270934af.gif",
@@ -35,11 +35,11 @@
     "static/media/source-sans-pro-vietnamese-400-normal.woff2": "/humic/static/media/source-sans-pro-vietnamese-400-normal.e84a4369ad213f658ebb.woff2",
     "index.html": "/humic/index.html",
     "main.6159cd63.css.map": "/humic/static/css/main.6159cd63.css.map",
-    "main.20558394.js.map": "/humic/static/js/main.20558394.js.map",
+    "main.41804c0b.js.map": "/humic/static/js/main.41804c0b.js.map",
     "787.0a6446b5.chunk.js.map": "/humic/static/js/787.0a6446b5.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.6159cd63.css",
-    "static/js/main.20558394.js"
+    "static/js/main.41804c0b.js"
   ]
 }
